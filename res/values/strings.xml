@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OutlookTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_search">Search</string>
+    <string name="image_description">Thumbnail Image for the Wiki Page</string>
+    <string name="empty_list_text">Enter Text in Above Text Box to search Images for the Wiki Page</string>
+    <string name="no_results_found">No Results Found</string>
+    <string name="fetching_data">Fetching Data Please Wait...</string>
+    <string name="action_string">Action</string>
+    <string name="prop_string">Prop</string>
+    <string name="format_string">Format</string>
+    <string name="generator_string">Generator</string>
+    <string name="piprop_string">piprop</string>
+    <string name="pithumbsize_string">Max. Thumbnail Size</string>
+    <string name="pilimit_string">Max. Pages</string>
+    <string name="ok_string">OK</string>
+    <string name="title_offline">Internet Unavailable</string>
+    <string name="msg_offline">Your Device is not connected to the internet. Please Connect and try again</string>
+    <string name="msg_loading_image">Loading Image...</string>
+
+    <string-array name="pref_action">
+        <item>query</item>
+    </string-array>
+    <string-array name="pref_prop">
+        <item>pageimages</item>
+    </string-array>
+    <string-array name="pref_format">
+        <item>json</item>
+    </string-array>
+    <string-array name="pref_generator">
+        <item>prefixsearch</item>
+    </string-array>
+    <string-array name="pref_piprop">
+        <item>thumbnail</item>
+    </string-array>
+
+</resources>

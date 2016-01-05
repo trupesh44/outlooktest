@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/image_margin" >
+
+        <LinearLayout
+            android:id="@+id/progressLayout"
+            android:layout_width="@dimen/image_width"
+            android:layout_height="@dimen/image_height"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="gone" >
+
+            <ProgressBar
+                android:id="@+id/loading_progress"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:indeterminate="true" />
+            
+            <TextView
+                android:id="@+id/loading_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="@string/msg_loading_image" 
+                android:textSize="@dimen/loading_text_size"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/tnimage"
+            android:layout_width="@dimen/image_width"
+            android:layout_height="@dimen/image_height"
+            android:layout_gravity="left|center_vertical"
+            android:background="@android:color/darker_gray"
+            android:contentDescription="@string/image_description" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/imageName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/content_text_size" />
+
+</LinearLayout>
